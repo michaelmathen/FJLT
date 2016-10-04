@@ -1,13 +1,8 @@
 import numpy as np
-import fht
-import numpy.linalg as npl
+import fht #Fast hadamard transform. https://github.com/nbarbey/fht
 from scipy import sparse
-from scipy.linalg import hadamard
 import numpy.random as npr
 import math
-import itertools
-import matplotlib.pyplot as plt
-import matplotlib.cm as cm
 
 
 def approx_bound(eps, n):
